@@ -1,0 +1,49 @@
+{
+  "name": "@fxhxyz/prettier-config",
+  "version": "1.0.0",
+  "description": "My professional prettier config",
+  "keywords": [
+    "typescript",
+    "prettier",
+    "javascript",
+    "prettier config",
+    "config"
+  ],
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "author": {
+    "name": "fxhxyz4",
+    "email": "fxhsec@proton.me",
+    "url": "https://fxhxyz.vercel.app/"
+  },
+  "homepage": "https://github.com/fxhxyz4/prettier-config",
+  "bugs": "https://github.com/fxhxyz4/prettier-config/issues",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fxhxyz4/prettier-config.git"
+  },
+  "maintainers": [
+    {
+      "name": "fxhxyz4",
+      "email": "fxhsec@proton.me"
+    }
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "prettier": "^3.5.2"
+  },
+  "devDependencies": {
+    "@types/prettier": "^3.0.0",
+    "typescript": "^5.7.3"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
