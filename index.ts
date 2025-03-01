@@ -16,10 +16,6 @@ export const config: Config = {
   proseWrap: "always",
   quoteProps: "as-needed",
   htmlWhitespaceSensitivity: "css",
-  cssEnable: ["css", "scss", "less"],
-  jsxSortProps: true,
-  yamlBracketSpacing: true,
-  markdownQuoteStyle: "consistent",
   parser: "jsonc",
   endOfLine: "lf",
 };
