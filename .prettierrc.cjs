@@ -1,10 +1,3 @@
-/**
-* @F @fxhxyz/prettier-config v1.0.3
-* @F (c)2025 fxhxyz
-* @F MIT License
-* @F github.com/fxhxyz4/prettier-config
-*/
-
 'use strict';
 
 Object.defineProperty(exports, '__esModule', { value: true });

@@ -2,9 +2,6 @@
 
 set -e
 
-echo "🔧 Building the project..."
-npm run build
-
 VERSION_TYPE=$1
 
 if [ -z "$VERSION_TYPE" ]; then
