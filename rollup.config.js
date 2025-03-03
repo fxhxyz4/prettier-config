@@ -17,6 +17,13 @@ export default config = {
       exports: 'named',
       sourcemap: false,
       banner: banner,
+    },
+    {
+      file: `./.prettierrc.js`,
+      format: 'esm',
+      exports: 'named',
+      sourcemap: false,
+      banner: banner,
     }
   ]
 }
