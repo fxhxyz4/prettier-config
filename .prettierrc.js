@@ -5,9 +5,11 @@
 * @F github.com/fxhxyz4/prettier-config
 */
 
-import config from "@fxhxyz/prettier-config";
+import config from '@fxhxyz/prettier-config';
 
 /** @type {import("prettier").Config} */
-export default {
+var _prettierrc = {
   ...config
-}
+};
+
+export { _prettierrc as default };
