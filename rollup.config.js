@@ -6,7 +6,6 @@ export default config = {
     {
       file: `./.prettierrc.cjs`,
       format: 'cjs',
-      exports: 'named',
       sourcemap: false,
     },
     {
