@@ -27,7 +27,8 @@
       "require": "./.prettierrc.cjs",
       "import": "./.prettierrc.js",
       "default": "./.prettierrc.js"
-    },
+    }
+  },
   "scripts": {
     "format": "prettier --write .",
     "build": "rollup -c"
