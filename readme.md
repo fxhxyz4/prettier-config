@@ -21,7 +21,9 @@ pnpm add @fxhxyz/prettier-config -D
 + ***usage commonjs***
 ```js
 // .prettierrc.cjs
-module.exports = require("@fxhxyz/prettier-config");
+const config = require("@fxhxyz/prettier-config").default;
+module.exports = config;
+
 
 // package.json
 "scripts": {
@@ -32,7 +34,7 @@ module.exports = require("@fxhxyz/prettier-config");
 + ***usage es6***
 ```js
 // .prettierrc.mjs/.js
-import { config } from "@fxhxyz/prettier-config";
+import config from "@fxhxyz/prettier-config";
 export { config };
 
 // package.json
