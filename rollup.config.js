@@ -1,18 +1,19 @@
-let config = {};
-
-export default config = {
-  input: `./.prettierrc.js`,
+export default {
+  input: './.prettierrc.js',
   output: [
     {
-      file: `./.prettierrc.cjs`,
+      file: '.prettierrc.cjs',
       format: 'cjs',
-      sourcemap: false,
+      exports: 'default'
     },
     {
-      file: `./.prettierrc.js`,
-      format: 'esm',
-      exports: 'named',
-      sourcemap: false,
+      file: '.prettierrc.js',
+      format: 'esm'
     }
+  ],
+  external: [
+    'prettier',
+    '@ianvs/prettier-plugin-sort-imports',
+    'prettier-plugin-multiline-arrays'
   ]
-}
+};
