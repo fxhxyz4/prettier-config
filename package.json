@@ -1,6 +1,6 @@
 {
   "name": "@fxhxyz/prettier-config",
-  "version": "1.0.6",
+  "version": "2.0.0",
   "type": "module",
   "description": "My professional prettier config",
   "main": "./.prettierrc.json",
@@ -29,10 +29,6 @@
       "default": "./.prettierrc.js"
     }
   },
-  "scripts": {
-    "format": "prettier --write .",
-    "build": "rollup -c"
-  },
   "author": {
     "name": "fxhxyz4",
     "email": "fxhsec@proton.me",
@@ -54,20 +50,18 @@
   "publishConfig": {
     "access": "public"
   },
+  "scripts": {
+    "build": "rollup -c",
+    "format": "prettier --write .",
+    "prepublishOnly": "npm run build"
+  },
   "devDependencies": {
-    "@ianvs/prettier-plugin-sort-imports": "^4.4.1",
-    "prettier": "^3.5.2",
-    "prettier-plugin-multiline-arrays": "3.0.3"
+    "prettier": "^3.x.x",
+    "rollup": "^4.x.x",
+    "@ianvs/prettier-plugin-sort-imports": "^x.x.x",
+    "prettier-plugin-multiline-arrays": "^x.x.x"
   },
   "peerDependencies": {
-    "@ianvs/prettier-plugin-sort-imports": "^4.4.1",
-    "prettier": "^3.5.2",
-    "prettier-plugin-multiline-arrays": "3.0.3"
-  },
-  "engines": {
-    "node": "20.x"
-  },
-  "dependencies": {
-    "rollup": "^4.34.9"
+    "prettier": "^3.0.0"
   }
 }
