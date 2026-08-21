@@ -13,13 +13,16 @@
     "config"
   ],
   "files": [
-    ".prettierignore",
-    ".prettierrc.cjs",
-    ".prettierrc.js",
+    "./misc/.prettierignore",
+    "./misc/.editorconfig",
+    "./dist/prettierrc.cjs",
+    "./dist/prettierrc.js",
     ".prettierrc.json",
-    ".editorconfig",
+    ".prettierrc.js",
     "rollup.config.js",
     ".gitignore",
+    "license.md",
+    "readme.md",
     ".npmignore"
   ],
   "exports": {
