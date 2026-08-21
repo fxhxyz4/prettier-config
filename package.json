@@ -1,6 +1,6 @@
 {
   "name": "@fxhxyz/prettier-config",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "type": "module",
   "description": "My professional prettier config",
   "main": "./.prettierrc.json",
@@ -24,9 +24,9 @@
   ],
   "exports": {
     ".": {
-      "require": "./.prettierrc.cjs",
-      "import": "./.prettierrc.js",
-      "default": "./.prettierrc.js"
+      "require": "./dist/.prettierrc.cjs",
+      "import": "./dist/.prettierrc.js",
+      "default": "./dist/.prettierrc.js"
     }
   },
   "author": {
@@ -56,10 +56,11 @@
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
-    "prettier": "^3.x.x",
-    "rollup": "^4.x.x",
     "@ianvs/prettier-plugin-sort-imports": "^x.x.x",
-    "prettier-plugin-multiline-arrays": "^x.x.x"
+    "@rollup/plugin-json": "^6.1.0",
+    "prettier": "^3.x.x",
+    "prettier-plugin-multiline-arrays": "^x.x.x",
+    "rollup": "^4.x.x"
   },
   "peerDependencies": {
     "prettier": "^3.0.0"

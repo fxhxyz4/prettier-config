@@ -3,56 +3,60 @@
 #
 
 ### how to use?
-+ ***npm***
+
+- _**npm**_
+
 ```
 npm install @fxhxyz/prettier-config -D
 ```
 
-+ ***yarn***
+- _**yarn**_
+
 ```
 yarn add @fxhxyz/prettier-config -D
 ```
 
-+ ***pnpm***
+- _**pnpm**_
+
 ```
 pnpm add @fxhxyz/prettier-config -D
 ```
 
-+ ***usage commonjs***
+- _**usage commonjs**_
+
 ```js
 // .prettierrc.cjs
-const config = require("@fxhxyz/prettier-config").default;
-module.exports = config;
-
+module.exports = require("@fxhxyz/prettier-config");
 
 // package.json
 "scripts": {
-    "format": "prettier --write ."
+"format": "prettier --write ."
 }
 ```
 
-+ ***usage es6***
+- _**usage es6**_
+
 ```js
 // .prettierrc.mjs/.js
 import config from "@fxhxyz/prettier-config";
-export { config };
+export default config;
 
 // package.json
 "scripts": {
-    "format": "prettier --write ."
+"format": "prettier --write ."
 }
 ```
-
 
 #
 
 ### copying prettierignore & editorconfig from node_modules
+
 ```
 # linux/mac
-cp node_modules/@fxhxyz/prettier-config/.prettierignore .prettierignore &&
-cp node_modules/@fxhxyz/prettier-config/.editorconfig .editorconfig
+cp node_modules/@fxhxyz/prettier-config/misc/.prettierignore .prettierignore &&
+cp node_modules/@fxhxyz/prettier-config/misc/.editorconfig .editorconfig
 
 # win
-copy node_modules/@fxhxyz/prettier-config/.prettierignore .prettierignore &&
-copy node_modules/@fxhxyz/prettier-config/.editorconfig .editorconfig
+copy node_modules/@fxhxyz/prettier-config/misc/.prettierignore .prettierignore &&
+copy node_modules/@fxhxyz/prettier-config/misc/.editorconfig .editorconfig
 ```

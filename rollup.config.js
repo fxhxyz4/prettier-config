@@ -1,19 +1,21 @@
+import json from "@rollup/plugin-json";
+
 export default {
-  input: './.prettierrc.js',
+  input: "./.prettierrc.js",
+  plugins: [json()],
   output: [
     {
-      file: '.prettierrc.cjs',
-      format: 'cjs',
-      exports: 'default'
+      file: "./dist/.prettierrc.cjs",
+      format: "cjs",
+      exports: "default",
     },
     {
-      file: '.prettierrc.js',
-      format: 'esm'
-    }
+      file: "./dist/.prettierrc.js",
+      format: "esm",
+    },
   ],
   external: [
-    'prettier',
-    '@ianvs/prettier-plugin-sort-imports',
-    'prettier-plugin-multiline-arrays'
-  ]
-};
+    "@ianvs/prettier-plugin-sort-imports",
+    "prettier-plugin-multiline-arrays",
+  ],
+}

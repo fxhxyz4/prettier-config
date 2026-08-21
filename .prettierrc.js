@@ -1,4 +1,4 @@
-import config from '@fxhxyz/prettier-config';
+import config from "./.prettierrc.json";
 
 /** @type {import("prettier").Config} */
 var _prettierrc = {
