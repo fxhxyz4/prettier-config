@@ -7,19 +7,19 @@
 - _**npm**_
 
 ```
-npm install @fxhxyz/prettier-config -D
+npm install @fxhxyz/prettier-config prettier-plugin-multiline-arrays @ianvs/prettier-plugin-sort-imports -D
 ```
 
 - _**yarn**_
 
 ```
-yarn add @fxhxyz/prettier-config -D
+yarn add @fxhxyz/prettier-config prettier-plugin-multiline-arrays @ianvs/prettier-plugin-sort-imports -D
 ```
 
 - _**pnpm**_
 
 ```
-pnpm add @fxhxyz/prettier-config -D
+pnpm add @fxhxyz/prettier-config prettier-plugin-multiline-arrays @ianvs/prettier-plugin-sort-imports -D
 ```
 
 - _**usage commonjs**_
