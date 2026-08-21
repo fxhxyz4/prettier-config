@@ -1,4 +1,5 @@
 # Misc
+.npmrc
 .DS_Store
 text.txt
 package-lock.*
