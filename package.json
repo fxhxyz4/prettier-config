@@ -1,6 +1,6 @@
 {
   "name": "@fxhxyz/prettier-config",
-  "version": "2.1.2",
+  "version": "2.1.3",
   "type": "module",
   "description": "My professional prettier config",
   "main": "./.prettierrc.json",
