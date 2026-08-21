@@ -1,8 +1,8 @@
-import config from "./.prettierrc.json";
+import config from "./.prettierrc.json"
 
 /** @type {import("prettier").Config} */
 var _prettierrc = {
-  ...config
-};
+  ...config,
+}
 
-export { _prettierrc as default };
+export { _prettierrc as default }
