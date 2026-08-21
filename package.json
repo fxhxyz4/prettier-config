@@ -15,8 +15,8 @@
   "files": [
     "./misc/.prettierignore",
     "./misc/.editorconfig",
-    "./dist/prettierrc.cjs",
-    "./dist/prettierrc.js",
+    "./dist/.prettierrc.cjs",
+    "./dist/.prettierrc.js",
     ".prettierrc.json",
     ".prettierrc.js",
     "rollup.config.js",
